@@ -13,4 +13,8 @@ listItems.forEach(item => {
     item.style.fontSize = '24px'
 })
 
+li.setAttribute('id', 'main-heading')
+li.removeAttribute('id')
+li.remove()
+
 title.style.color = 'red'
